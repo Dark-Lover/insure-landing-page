@@ -231,9 +231,10 @@ a {
   background-color: var(--v_light_g);
   position: relative;
 }
-.insure_footer .bg_footer {
+.bg_footer {
   position: absolute;
   z-index: 0;
+  width: 60%;
 }
 .footer_content {
   display: flex;
@@ -416,8 +417,9 @@ a {
     align-items: center;
     width: 100vw;
     height: 100vh;
-    top: 50px;
+    /* top: 50px; */
     z-index: 25;
+    position: relative;
     overflow: hidden;
   }
   .blur {
